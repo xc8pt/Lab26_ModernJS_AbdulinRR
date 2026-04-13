@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab24-26 - Modern JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Lab 24-26 - Modetn JavaScript</h1>
+        <h2>Современный JavaScript</h2>
+    </div>
+    <br /><br />
+    <div class="container">
+        <h1>Конвертер валют</h1>
+
+        <div class="converter">
+            <div class="input-group">
+                <label for="amount">Сумма (в рублях):</label>
+                <input type="number" id="amount" placeholder="Введите сумму в RUB" step="any">
+            </div>
+            <div class="input-group">
+                <label for="currency">Выберите валюту:</label>
+                <select id="currency">
+                    <option value="USD">Доллар США (USD)</option>
+                    <option value="EUR">Евро (EUR)</option>
+                    <option value="GBP">Фунт стерлингов (GBP)</option>
+                    <option value="JPY">Японская иена (JPY)</option>
+                    <option value="CNY">Китайский юань (CNY)</option>
+                </select>
+            </div>
+            <button id="convertBtn">Конвертировать</button>
+            <div class="result" id="result"></div>
+        </div>
+    </div>
+    <script type="module" src="js/dz25.js"></script>
+</body>
+
+</html>
